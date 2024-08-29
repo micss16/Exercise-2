@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Baskervville";
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.dark-mode {
+    background-color: #333;
+    color: white;
+}
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+header {
+    min-height: 100px;
+    text-align: center;
+}
+header h1 {
+    margin: 40px;
+    font-size: 60px;
+}
+.team {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.team-member {
+    background: linear-gradient(#0f0f0f , #5e5c5c);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 200px;
+    text-align: center;
+    transition: .5s;
+}
+.team-member:hover {
+    transform:scale(1.3);
+    z-index: 2;
+}
+.team-member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.team-member h2 {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+.team-member p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 16px;
+}
+.about {
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: flex;
+}
+
+.about img {
+    padding: 50px 50px 0px 200px;
+    width: 800px;
+    height: 450px;
+    border-radius: 10px;
+}
+h2 {
+    padding-top: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+.about-desc p {
+    margin:20px;
+    padding: 20px;
+    font-family: "Baskervville";
+    font-size: 20px;
+    text-justify: inter-word;
+    line-height: 30px;
+}
